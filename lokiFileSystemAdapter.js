@@ -41,7 +41,7 @@
         function FileSystemAdapter(options) {
             this.options = options;
             if (!this.checkAvailability()) {
-                console.error('indexedDB does not seem to be supported for your environment');
+                console.error('requestFileSystem does not seem to be supported for your environment');
             }
         }
 
